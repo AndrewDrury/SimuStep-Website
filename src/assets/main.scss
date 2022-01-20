@@ -28,6 +28,12 @@ $font_path: '~@/assets/fonts/';
   font-style: normal;
   font-weight: 300;
 }
+@font-face {
+  font-family: 'Prata';
+  src: local('Prata'), local('Prata-Regular'),
+    url($font_path+'Prata-Regular.ttf') format('ttf');
+  font-style: normal;
+}
 
 // .fade-enter-active,
 // .fade-leave-active {
@@ -57,6 +63,10 @@ $font_path: '~@/assets/fonts/';
   // Black           900
 }
 
+h4,h5,h6, p {
+  font-family: 'Prata', Georgia, 'Times New Roman', Times, serif;
+}
+
 .link {
   color: black;
   text-decoration: underline $primary;
@@ -74,6 +84,14 @@ $font_path: '~@/assets/fonts/';
   @media (max-width: $screen-md) {
     text-align: center;
   }
+  @media (max-width: $screen-md) {
+    padding-right: 26px;
+    padding-left: 26px
+  }
+  @media (min-width: $screen-md) {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
 }
 #about {
   @media (max-width: $screen-sm) {
@@ -84,7 +102,7 @@ $font_path: '~@/assets/fonts/';
 .desktop {
   display: inline;
   @media (max-width: $screen-md) {
-    display: none;
+    display: none !important;
   }
 }
 .mobile {
@@ -132,6 +150,23 @@ h2 {
   }
 }
 
+h3 {
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: underline $primary;
+  font-size: 52px;
+}
+
+h4 {
+  font-weight: 700;
+  // text-transform: uppercase;
+  font-size: 32px;
+}
+
+h5, h6 {
+  font-weight: 700;
+}
+
 .rotate {
   transform: rotate(-90deg);
 
@@ -168,7 +203,7 @@ h2 {
   animation: reveal 1s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
 }
 .hidden {
-opacity: 0;
+  opacity: 0;
 }
 
 @-webkit-keyframes reveal {

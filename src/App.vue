@@ -3,38 +3,35 @@
     <div class="mobile1 navbar-background"></div>
 
     <!-- Navbar -->
-    <b-navbar toggleable="md" class="fixed-top navbar" id="navbar">
+    <b-navbar toggleable="lg" class="fixed-top navbar" id="navbar">
       <div class="mobile1">
         <b-navbar-brand class="nav-link" :to="{ name: 'home', hash: '' }">
-          <img src="@/assets/logo.png" style="width: 45px" />
+          <img src="@/assets/pics/logo.png" style="width: 45px" />
         </b-navbar-brand>
       </div>
       <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
       <b-collapse is-nav id="nav_collapse">
         <b-navbar-nav class="mr-auto" style="margin-left: 0">
-          <!-- <b-navbar-brand
-            class="nav-link"
-            :to="{ name: 'home', hash: '' }"
-          >
-            <img src="@/assets/logo.png" style="width: 45px" />
-          </b-navbar-brand> -->
           <b-nav-item
-            class="tab desktop-router hidden"
+            class="tab desktop-router"
             :to="{ name: 'home', hash: '' }"
             ><img
-              src="@/assets/logo.png"
+              src="@/assets/pics/logo.png"
               style="width: 45px; float: left; margin-left: 5px"
           /></b-nav-item>
         </b-navbar-nav>
-        <b-navbar-nav class="mx-auto hidden">
-          <b-nav-item class="tab" :to="{ name: 'home', hash: '#why' }"
+        <b-navbar-nav class="mx-auto">
+          <b-nav-item class="tab" :to="{ name: 'why', hash: '' }"
             >Why&nbsp;SimuStep?</b-nav-item
           >
-          <b-nav-item class="tab" :to="{ name: 'home', hash: '#blog' }"
+          <b-nav-item class="tab" :to="{ name: 'blog', hash: '' }"
             >Blog</b-nav-item
           >
-          <b-nav-item class="tab" :to="{ name: 'home', hash: '#team' }"
-            >Team</b-nav-item
+          <b-nav-item class="tab" :to="{ name: 'aboutUs', hash: '' }"
+            >About Us</b-nav-item
+          >
+          <b-nav-item class="tab" :to="{ name: 'contact', hash: '' }"
+            >Contact</b-nav-item
           >
         </b-navbar-nav>
         <div class="desktop">
@@ -54,37 +51,23 @@
       </transition>
     </div>
 
-    <div>
+    <!-- <div>
+      <Home />
       <Why />
-      <!-- <Blog /> -->
-    </div>
+      <Blog />
+    </div> -->
 
     <!-- Footer -->
-    <!-- <section id="contact">
+    <!-- <section id="footer">
       <div class="container hidden">
-        <b-row class="text-center" style="margin-bottom: 24px">
-          <b-col>
-            <h3>Let's Get In Touch!</h3>
-          </b-col>
-        </b-row>
         <b-row style="margin-bottom: 10px">
           <b-col class="col-xs-12 col-sm-12 col-md-12">
             <ul class="list-unstyled list-inline social text-center">
               <li class="list-inline-item">
-                <a
-                  href=""
-                  target="_blank"
-                >
-                  <i class="fa fa-linkedin"></i>
-                </a>
+                <h6>Copyright &copy; 2022 SimuStep</h6>
               </li>
               <li class="list-inline-item">
-                <a href="">
-                  <i class="fa fa-envelope"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="" target="_blank">
+                <a href="https://github.com/AndrewDrury/SimuStep" target="_blank">
                   <i class="fa fa-github"></i>
                 </a>
               </li>
@@ -114,6 +97,9 @@
   // display: none;
   // background-color: transparent !important;
   // top: 0px !important;
+  @media (max-width: $screen-lg) {
+    display: none;
+  }
 }
 #progress-el {
   /* progress bar */
@@ -131,13 +117,18 @@
 }
 
 .nav-item {
-  min-width: 260px;
+  min-width: 230px;
   margin-block: float;
   a {
     font-weight: 600;
+    margin-right: 0;
+    min-width: 230px;
   }
   @media (max-width: 1350px) {
     min-width: 180px;
+    a {
+      min-width: 180px;
+    }
   }
 }
 
@@ -229,11 +220,11 @@
 #navbar {
   background-color: white;
 
-  @media (min-width: $screen-md) {
+  @media (min-width: $screen-lg) {
     background-color: white;
     height: 80px;
   }
-  @media (max-width: $screen-md) {
+  @media (max-width: $screen-lg) {
     padding-right: 15px;
     padding-left: 15px;
   }
@@ -310,15 +301,14 @@
 section {
   padding: 30px 0;
 }
-#contact {
+#footer {
   background: white;
   z-index: 99;
   position: absolute;
   width: 100%;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 0px;
 }
-#contact ul.social li a i {
+#footer ul.social li a i {
   margin-right: 15px;
   margin-left: 15px;
   font-size: 25px;
@@ -327,12 +317,12 @@ section {
   transition: 0.5s all ease;
   color: black;
 }
-#contact ul.social li:hover a i {
+#footer ul.social li:hover a i {
   font-size: 30px;
   margin-top: -10px;
   color: $primary;
 }
-#contact ul.social li a img {
+#footer ul.social li a img {
   margin-right: 15px;
   margin-left: 15px;
   font-size: 25px;
@@ -341,17 +331,17 @@ section {
   transition: 0.5s all ease;
   color: black;
 }
-#contact ul.social li:hover a img {
+#footer ul.social li:hover a img {
   font-size: 30px;
   margin-top: -10px;
   color: $primary;
 }
-#contact h3 {
+#footer h3 {
   font-size: 24px;
   font-weight: 700;
   color: black;
 }
-#contact .endtag {
+#footer .endtag {
   margin-bottom: 0px;
   color: black;
 }
@@ -367,13 +357,15 @@ section {
 <script lang="ts">
 import Vue from "vue";
 // import Blog from "./views/Blog.vue";
-import Why from "./views/Why.vue";
+// import Why from "./views/Why.vue";
+// import Home from "./views/Home.vue";
 
 export default Vue.extend({
   name: "home",
   components: {
     // Blog,
-    Why,
+    // Home,
+    // Why,
   },
   mounted() {
     this.animateElements();

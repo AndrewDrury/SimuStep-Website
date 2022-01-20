@@ -3,31 +3,16 @@
     <b-container fluid class="wrap-mobile">
       <b-row>
         <b-col>
-          <b-row class="hidden">
-            <b-col>
-              <h2>Blog</h2>
+          <b-row class="mt-5">
+            <b-col style="text-align: center">
+              <h3>Blog</h3>
             </b-col>
           </b-row>
         </b-col>
       </b-row>
-      <b-row class="whyRow">
-        <b-col class="desktop content-left" lg="6" align="left">
-          <div class="description">
-            <div class="hidden">Hi!</div>
-            <br />
-            <div class="hidden">blogggg</div>
-          </div>
-        </b-col>
-
-        <b-col class="pic" lg="6" align="right">
-          <img src="" />
-        </b-col>
-        <b-col class="mobile" align="left">
-          <div class="description">
-            <div class="hidden">Hi!</div>
-            <br />
-            <div class="hidden">bloggggg</div>
-          </div>
+      <b-row class="pt-4">
+        <b-col class="desktop" align="center">
+          <p>The first blog post is coming soon!</p>
         </b-col>
       </b-row>
     </b-container>

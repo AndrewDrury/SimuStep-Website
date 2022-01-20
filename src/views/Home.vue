@@ -12,14 +12,14 @@
               width: 100%;
             "
           >
-            <h1 class="hidden">SimuStep</h1>
-            <h6 class="hidden">A step in the right direction.</h6>
+            <h1>SimuStep</h1>
+            <h6>A step in the right direction.</h6>
           </div>
         </b-col>
-        <b-col lg="7" style="text-align: left; padding-left: 60px">
+        <b-col lg="7" class="modelPic">
           <img
-            class="hidden"
-            src="@/assets/3Dmodel.png"
+            class="model"
+            src="@/assets/pics/3Dmodel.png"
             style="max-width: 80vw"
           />
         </b-col>
@@ -44,7 +44,7 @@ a:hover {
 
 .home {
   @media (min-width: $screen-md) {
-    min-height: 70vh;
+    min-height: 65vh;
   }
   .top-space {
     margin-top: 200px;
@@ -99,9 +99,16 @@ a:hover {
     }
   }
 
+  @media (min-width: $screen-md) {
+    .modelPic {
+      text-align: left;
+    }
+  }
+
   @media (max-width: $screen-md) {
     .headline h1,
-    h6 {
+    h6,
+    .modelPic {
       text-align: center;
     }
     h6 {

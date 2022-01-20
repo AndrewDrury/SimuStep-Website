@@ -1,7 +1,9 @@
 import Vue from "vue";
 import Router from "vue-router";
 import Home from "./views/Home.vue";
+import AboutUs from "./views/AboutUs.vue";
 import Blog from "./views/Blog.vue";
+import Contact from "./views/Contact.vue";
 import Why from "./views/Why.vue";
 Vue.use(Router);
 
@@ -23,6 +25,16 @@ export default new Router({
       path: "/why",
       name: "why",
       component: Why,
+    },
+    {
+      path: "/aboutus",
+      name: "aboutUs",
+      component: AboutUs,
+    },
+    {
+      path: "/contact",
+      name: "contact",
+      component: Contact,
     },
   ],
 
