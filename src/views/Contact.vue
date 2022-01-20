@@ -14,6 +14,12 @@
         <b-col>
           <h5 class="pb-5">We'd love to hear from you.</h5>
           <div style="text-align: left; display: inline-block">
+            <a href="mailto:s5stephe@uwaterloo.ca">
+              <p class="mb-0 pb-0">
+                <i class="fa fa-envelope"></i>
+                s5stephe@uwaterloo.ca
+              </p>
+            </a>
             <a href="mailto:andrew.drury@uwaterloo.ca">
               <p class="mb-0 pb-0">
                 <i class="fa fa-envelope"></i>
