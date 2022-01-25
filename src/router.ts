@@ -3,12 +3,14 @@ import Router from "vue-router";
 import Home from "./views/Home.vue";
 import AboutUs from "./views/AboutUs.vue";
 import Blog from "./views/Blog.vue";
+import BlogPost from "./views/BlogPost.vue";
 import Contact from "./views/Contact.vue";
+import NotFound from "./views/NotFound.vue";
 import Why from "./views/Why.vue";
 Vue.use(Router);
 
 export default new Router({
-  mode: "history", //If commented out, use hash mode
+  // mode: "history", //Ifxcommented out, use hash mode
   base: process.env.BASE_URL,
   routes: [
     {
@@ -20,6 +22,11 @@ export default new Router({
       path: "/blog",
       name: "blog",
       component: Blog,
+    },
+    {
+      path: "/blog/:id",
+      name: "blogPost",
+      component: BlogPost,
     },
     {
       path: "/why",
@@ -35,6 +42,10 @@ export default new Router({
       path: "/contact",
       name: "contact",
       component: Contact,
+    },
+    {
+      path: "/:catchAll(.*)",
+      component: NotFound,
     },
   ],
 

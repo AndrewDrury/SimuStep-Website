@@ -4,16 +4,19 @@
       <b-row class="top-space">
         <b-col lg="5">
           <div
-            class="headline"
+            class="headline pr-4"
             style="
-              bottom: 0;
-              position: absolute;
+              position: relative;
+              top: 50%;
+              -ms-transform: translateY(-50%);
+              -webkit-transform: translateY(-50%);
+              transform: translateY(-50%);
               text-align: right;
               width: 100%;
             "
           >
             <h1>SimuStep</h1>
-            <h6>A step in the right direction.</h6>
+            <h6 style="font-weight: 400">A step in the right direction.</h6>
           </div>
         </b-col>
         <b-col lg="7" class="modelPic">
@@ -48,55 +51,10 @@ a:hover {
   }
   .top-space {
     margin-top: 200px;
-    @media (max-width: $screen-sm) {
-      margin-top: 300px;
+    @media (max-width: $screen-lg) {
+      margin-top: 150px;
     }
     margin-bottom: 30px;
-  }
-  .intro {
-    margin-top: 20vh;
-    width: 100%;
-    top: 0px;
-    position: absolute;
-    text-align: center;
-    pointer-events: none;
-    @media (max-width: $screen-md) {
-      padding-right: 0px;
-    }
-  }
-  .scroll-down {
-    color: #fff;
-    margin-top: 15px;
-    pointer-events: auto;
-  }
-
-  h5 {
-    div {
-      font-size: 24.3px !important;
-      pointer-events: auto;
-
-      span {
-        font-size: 24.3px !important;
-      }
-
-      a {
-        font-size: 24.3px !important;
-        color: white;
-      }
-      a:hover {
-        text-decoration: underline $primary;
-      }
-    }
-  }
-
-  .tagline {
-    margin-top: 85px;
-    margin-bottom: 30px;
-    @media (max-width: $screen-md) {
-      margin-top: 60px;
-      text-align: center;
-      margin-bottom: 0px;
-    }
   }
 
   @media (min-width: $screen-md) {
@@ -105,7 +63,7 @@ a:hover {
     }
   }
 
-  @media (max-width: $screen-md) {
+  @media (max-width: $screen-lg) {
     .headline h1,
     h6,
     .modelPic {

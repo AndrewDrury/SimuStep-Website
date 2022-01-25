@@ -10,7 +10,7 @@
           </b-row>
         </b-col>
       </b-row>
-      <b-row class="pt-5 mt-5" style="text-align: center">
+      <b-row class="pt-5 mt-4" style="text-align: center">
         <b-col>
           <h5 class="pb-5">We'd love to hear from you.</h5>
           <div style="text-align: left; display: inline-block">
@@ -20,20 +20,17 @@
                 s5stephe@uwaterloo.ca
               </p>
             </a>
-            <a href="mailto:andrew.drury@uwaterloo.ca">
-              <p class="mb-0 pb-0">
-                <i class="fa fa-envelope"></i>
-                andrew.drury@uwaterloo.ca
-              </p>
-            </a>
             <a href="https://github.com/AndrewDrury/SimuStep" target="_blank">
               <p class="mb-0 pb-0">
-                <i class="fa fa-github"></i>
+                <i class="fa fa-github" style="font-size: 24px"></i>
                 GitHub Repository
               </p>
             </a>
             <p class="mb-0 pb-0">
-              <i class="fa fa-map-marker pr-1" style="font-size: 24px"></i>
+              <i
+                class="fa fa-map-marker"
+                style="font-size: 25px; padding-left: 3px; padding-right: 3px"
+              ></i>
               University of Waterloo, Ontario
             </p>
           </div>

@@ -4,9 +4,9 @@
 
     <!-- Navbar -->
     <b-navbar toggleable="lg" class="fixed-top navbar" id="navbar">
-      <div class="mobile1">
+      <div class="logo-mobile mobile">
         <b-navbar-brand class="nav-link" :to="{ name: 'home', hash: '' }">
-          <img src="@/assets/pics/logo.png" style="width: 45px" />
+          <img src="@/assets/pics/logo.png" />
         </b-navbar-brand>
       </div>
       <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
@@ -97,9 +97,7 @@
   // display: none;
   // background-color: transparent !important;
   // top: 0px !important;
-  @media (max-width: $screen-lg) {
-    display: none;
-  }
+  display: none;
 }
 #progress-el {
   /* progress bar */
@@ -129,6 +127,17 @@
     a {
       min-width: 180px;
     }
+  }
+}
+
+.logo-mobile {
+  text-align: left;
+  // position: absolute;
+
+  img {
+    width: 100px;
+    padding-left: 0px;
+    padding-bottom: 0px;
   }
 }
 

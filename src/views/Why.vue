@@ -7,7 +7,7 @@
             <b-col class="mt-5">
               <p style="font-weight: 700">
                 Take a step in the right direction with SimuStep: a
-                neuroprosthetic assistive walking device for people affected
+                neuroprosthetic assistive walking device for people affected by
                 foot drop
               </p>
               <h4>What is foot drop?</h4>
@@ -44,10 +44,10 @@
                 </b-col>
                 <b-col>
                   <p>
-                    The team consists of Samantha Stephenson, Andrew Drury,
-                    Drury, Dominic Tung, and Tina Li, who are all 4B
-                    Mechatronics Engineering students at the University of
-                    Waterloo. Learn more about our team in the
+                    The team consists of Samantha Stephenscon, Andrew Drury,
+                    Dominic Tung, and Tina Li, who are all 4B Mechatronics
+                    Engineering students at the University of Waterloo. Learn
+                    more about our team in the
                     <a href="/aboutus">About Us</a> page, or follow along with
                     our progress on our <a href="/blog">Blog</a>!
                   </p>
@@ -57,24 +57,6 @@
           </b-row>
         </b-col>
       </b-row>
-      <!-- <b-row class="whyRow" style="padding-bottom:120px">
-        <b-col class="desktop content-left" lg="6" align="left">
-          <div class="description">
-            <div>More coming soon...</div>
-            <br />
-          </div>
-        </b-col>
-
-        <b-col class="pic" lg="6" align="right">
-          <img src="" />
-        </b-col>
-        <b-col class="mobile" align="left">
-          <div class="description">
-            <div>More coming soon...</div>
-            <br />
-          </div>
-        </b-col>
-      </b-row> -->
     </b-container>
   </div>
 </template>
@@ -84,5 +66,9 @@
 p {
   padding-bottom: 30px;
   padding-top: 15px;
+  text-align: justify;
+}
+a {
+  font-family: "Prata", Georgia, "Times New Roman", Times, serif;
 }
 </style>

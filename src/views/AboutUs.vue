@@ -16,7 +16,12 @@
         </b-col>
         <b-col style="align-items: center; display: flex" lg="8">
           <div>
-            <h5 class="mb-1">Samantha Stephenson</h5>
+            <a
+              href="https://www.linkedin.com/in/samantha-stephenson/"
+              target="_blank"
+              ><h5 class="mb-1">
+                Sam Stephenson <i class="fa fa-linkedin-square"></i></h5
+            ></a>
             <h6>Electrical Engineer</h6>
             <p class="mb-0 pb-1">
               Hi! I'm a 4B mechatronics engineering student at the University of
@@ -40,19 +45,22 @@
           style="align-items: center; display: flex"
         >
           <div>
-            <h5 class="mb-1">Andrew Drury</h5>
+            <a href="https://www.linkedin.com/in/andrew-drury/" target="_blank"
+              ><h5 class="mb-1">
+                Andrew Drury <i class="fa fa-linkedin-square"></i></h5
+            ></a>
             <h6>Software Engineer</h6>
             <p class="mb-0 pb-1">
-              I am leading the software development for SimuStep. I am
-              responsible for writing software to control the device.
-              Additionally, I am leading the design and development of this site
+              I am leading the software development for SimuStep. This role
+              entails entails writing code to control the device. Additionally,
+              I am leading the design and development of
               <a style="font-family: Prata" href="https://simustep.com"
                 >simustep.com</a
-              >. This website is used to provide updates on the progress of the
-              project.
+              >. This website is used to showoff SimuStep and provide updates on
+              the progress of the project.
             </p>
             <p class="pb-0 mb-0">
-              I enjoy creating music, photography, weightlifting, boxing and
+              I love photography, creating music, weightlifting, boxing, and
               being in nature.
             </p>
           </div>
@@ -62,17 +70,24 @@
         </b-col>
         <b-col class="mobile" align="left">
           <div>
-            <h5 class="mb-1">Andrew Drury</h5>
-            <h6>Software Engineer</h6>
+            <a
+              align="center"
+              href="https://www.linkedin.com/in/andrew-drury/"
+              target="_blank"
+              ><h5 class="mb-1">
+                Andrew Drury <i class="fa fa-linkedin-square"></i></h5
+            ></a>
+            <h6 align="center">Software Engineer</h6>
             <p class="mb-0 pb-1">
-              I am leading the software development for SimuStep. I am
+              I am leading the software development for SimuStep. As such, I am
               responsible for writing software to control the device.
-              Additionally, I am leading the design and development of this site
-              <a href="https://simustep.com"><p>simustep.com</p></a>. The site
-              is used to provide updates on the progress of the project.
+              Additionally, I am leading the design and development of
+              <a href="https://simustep.com">simustep.com</a>. This website is
+              used to provide updates on the progress of the project.
             </p>
             <p class="pb-0">
-              I enjoy creating music, photography, boxing, and being in nature.
+              I love photography, creating music, weightlifting, boxing, and
+              being in nature.
             </p>
           </div>
         </b-col>
@@ -83,7 +98,10 @@
         </b-col>
         <b-col style="align-items: center; display: flex" lg="8">
           <div>
-            <h5 class="mb-1">Dominic Tung</h5>
+            <a href="https://www.linkedin.com/in/dominic-tung/" target="_blank"
+              ><h5 class="mb-1">
+                Dominic Tung <i class="fa fa-linkedin-square"></i></h5
+            ></a>
             <h6>Mechanical Engineer</h6>
             <p class="mb-0 pb-1">
               I am primarily responsible for the mechanical aspects of SimuStep.
@@ -109,7 +127,10 @@
           style="align-items: center; display: flex"
         >
           <div>
-            <h5 class="mb-1">Yuan Li</h5>
+            <a href="https://www.linkedin.com/in/tinayuanli/" target="_blank"
+              ><h5 class="mb-1">
+                Yuan Li <i class="fa fa-linkedin-square"></i></h5
+            ></a>
             <h6>Software Engineer</h6>
             <p class="mb-0 pb-1">
               I am working on developing the software to control the electrical
@@ -126,8 +147,14 @@
         </b-col>
         <b-col class="mobile" align="left">
           <div>
-            <h5 class="mb-1">Yuan Li</h5>
-            <h6>Software Engineer</h6>
+            <a
+              align="center"
+              href="https://www.linkedin.com/in/tinayuanli/"
+              target="_blank"
+              ><h5 class="mb-1">
+                Yuan Li <i class="fa fa-linkedin-square"></i></h5
+            ></a>
+            <h6 align="center">Software Engineer</h6>
             <p class="mb-0 pb-1">
               I am working on developing the software to control the electrical
               stimulation on the device.
@@ -150,6 +177,9 @@
   img {
     padding-inline: 60px;
     padding-bottom: 30px;
+  }
+  p {
+    text-align: justify !important;
   }
 }
 </style>
