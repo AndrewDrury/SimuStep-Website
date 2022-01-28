@@ -12,7 +12,7 @@
       </b-row>
       <b-row class="pb-4 mb-4">
         <b-col lg="4">
-          <img style="width: 100%" src="@/assets/pics/SamHeadshot.png" />
+          <img class="headshots" style="width: 100%" src="@/assets/pics/SamHeadshot.png" />
         </b-col>
         <b-col style="align-items: center; display: flex" lg="8">
           <div>
@@ -66,7 +66,7 @@
           </div>
         </b-col>
         <b-col lg="4">
-          <img style="width: 100%" src="@/assets/pics/AndrewHeadshot.jpg" />
+          <img class="headshots" style="width: 100%" src="@/assets/pics/AndrewHeadshot.jpg" />
         </b-col>
         <b-col class="mobile" align="left">
           <div>
@@ -94,7 +94,7 @@
       </b-row>
       <b-row class="pb-4 mb-4">
         <b-col lg="4">
-          <img style="width: 100%" src="@/assets/pics/DomHeadshot.jpg" />
+          <img class="headshots" style="width: 100%" src="@/assets/pics/DomHeadshot.jpg" />
         </b-col>
         <b-col style="align-items: center; display: flex" lg="8">
           <div>
@@ -143,7 +143,7 @@
           </div>
         </b-col>
         <b-col lg="4">
-          <img style="width: 100%" src="@/assets/pics/TinaHeadshot.png" />
+          <img class="headshots" style="width: 100%" src="@/assets/pics/TinaHeadshot.png" />
         </b-col>
         <b-col class="mobile" align="left">
           <div>
@@ -174,7 +174,7 @@
 @import "../assets/variables.scss";
 
 @media (max-width: $screen-lg) {
-  img {
+  .headshots {
     padding-inline: 60px;
     padding-bottom: 30px;
   }

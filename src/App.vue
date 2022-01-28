@@ -4,7 +4,7 @@
 
     <!-- Navbar -->
     <b-navbar toggleable="lg" class="fixed-top navbar" id="navbar">
-      <div class="logo-mobile mobile">
+      <div class="logo-mobile mobile1">
         <b-navbar-brand class="nav-link" :to="{ name: 'home', hash: '' }">
           <img src="@/assets/pics/logo.png" />
         </b-navbar-brand>
@@ -135,9 +135,7 @@
   // position: absolute;
 
   img {
-    width: 100px;
-    padding-left: 0px;
-    padding-bottom: 0px;
+    width: 45px;
   }
 }
 

@@ -29,8 +29,14 @@
         easier to read: Black is ground, Red is +3.3V, and blue and white are
         used for controls.
       </p>
-      <img class="blogPic pr-2" src="@/assets/pics/perfFront.jpg" />
-      <img class="blogPic pl-2" src="@/assets/pics/perfBack.jpg" />
+      <b-row>
+        <b-col col="6">
+          <img class="perf1" src="@/assets/pics/perfFront.jpg" />
+        </b-col>
+        <b-col col="6">
+          <img class="perf2" src="@/assets/pics/perfBack.jpg" />
+        </b-col>
+      </b-row>
       <p>
         For testing and programming purposes, a lot of the panel-mounted IO
         devices, such as LEDs and the potentiometer, have been temporarily wired
@@ -51,3 +57,14 @@
     </b-col>
   </b-row>
 </template>
+
+<style lang="scss">
+@import "../../assets/variables.scss";
+.perf1, .perf2 {
+  max-width: 100%;
+  max-height: 300px;
+}
+.perf1 {
+  text-align: right;
+}
+</style>
