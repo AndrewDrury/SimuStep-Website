@@ -25,7 +25,7 @@
  * Copyright 2011-2021 The Bootstrap Authors
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */.blogEntry .blogPic{text-align:right}@media (max-width:1200px){.blogEntry .blogPic{text-align:center}}.blogEntry .blogPic img{max-height:300px;max-width:100%}.blogEntry .blogDescription{text-align:left;margin-block:auto}.blogEntry .blogDescription .headline{font-size:36px;margin-bottom:0;text-decoration:none;font-family:Manrope,Arial,Helvetica,sans-serif;text-transform:uppercase}.blogEntry .blogDescription .description{margin-bottom:0;padding-bottom:30px;text-decoration:none}.blogEntry .blogDescription .date{margin-bottom:0;padding-block:0;text-decoration:none}hr{margin-block:60px!important;width:70%;border-top:1px solid rgba(0,0,0,.3)!important}.blogEntry:hover p{text-decoration:none!important}
+ */.blogEntry .blogPic{text-align:right}@media (max-width:1200px){.blogEntry .blogPic{text-align:center}}.blogEntry .blogPic img{max-height:300px;max-width:100%}.blogEntry .blogDescription{text-align:left;margin-block:auto}.blogEntry .blogDescription .headline{font-size:36px;margin-bottom:0;text-decoration:none;font-family:Manrope,Arial,Helvetica,sans-serif;text-transform:uppercase}.blogEntry .blogDescription .description{margin-bottom:0;padding-bottom:30px;text-decoration:none}@media (max-width:1200px){.blogEntry .blogDescription .description{padding-bottom:15px}}.blogEntry .blogDescription .date{margin-bottom:0;padding-block:0;text-decoration:none}hr{margin-block:60px!important;width:70%;border-top:1px solid rgba(0,0,0,.3)!important}.blogEntry:hover p{text-decoration:none!important}
 
 /*!
  * Bootstrap v4.6.1 (https://getbootstrap.com/)
@@ -39,7 +39,7 @@
  * Copyright 2011-2021 The Bootstrap Authors
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */#blogPost{margin-top:45px;padding-top:20px;padding-inline:16vw}@media (max-width:1200px){#blogPost{margin-top:20px!important;padding-inline:30px}}#blogPost .fa-chevron-left{-webkit-text-stroke:1px #fff}#blogPost .topPic{max-width:48vw;max-height:60vh}#blogPost .blogPic{margin-block:30px;max-width:88vw;max-height:40vh}#blogPost .title{font-size:75px;margin-top:30px;margin-bottom:15px}@media (max-width:1200px){#blogPost .title{font-size:42px}}#blogPost .details{margin-bottom:15px}#blogPost p{text-align:justify;padding-bottom:15px!important;padding-top:15px!important;margin-bottom:0!important}#blogPost .date{text-align:right!important}
+ */#blogPost{margin-top:45px;padding-top:20px;padding-inline:16vw}@media (max-width:1200px){#blogPost{margin-top:20px!important;padding-inline:30px}}#blogPost .fa-chevron-left{-webkit-text-stroke:1px #fff}#blogPost .topPic{max-width:48vw;max-height:60vh}#blogPost .blogPic{margin-block:30px;max-width:88vw;max-height:40vh}#blogPost .title{font-size:75px;margin-top:30px;margin-bottom:15px}@media (max-width:1200px){#blogPost .title{font-size:30px}}#blogPost .details{margin-bottom:15px}#blogPost p{text-align:justify;padding-bottom:15px!important;padding-top:15px!important;margin-bottom:0!important}#blogPost .time{text-align:right!important}
 
 /*!
  * Bootstrap v4.6.1 (https://getbootstrap.com/)
