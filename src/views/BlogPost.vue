@@ -2,6 +2,7 @@
   <div class="blogPost section margin-wrap" id="blogPost" name="blogPost">
     <b-container fluid class="wrap-mobile">
       <Blog1 v-if="this.$route.params.id == 1" />
+      <Blog2 v-if="this.$route.params.id == 2" />
     </b-container>
   </div>
 </template>
@@ -54,11 +55,13 @@
 <script lang="ts">
 import Vue from "vue";
 import Blog1 from "./blogs/1.vue";
+import Blog2 from "./blogs/2.vue";
 
 export default Vue.extend({
   name: "blogPost",
   components: {
     Blog1,
+    Blog2,
   },
 });
 </script>

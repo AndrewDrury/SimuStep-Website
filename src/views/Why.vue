@@ -48,8 +48,8 @@
                     Dominic Tung, and Tina Li, who are all 4B Mechatronics
                     Engineering students at the University of Waterloo. Learn
                     more about our team in the
-                    <a href="/aboutus">About Us</a> page, or follow along with
-                    our progress on our <a href="/blog">Blog</a>!
+                    <a href="/#/aboutus">About Us</a> page, or follow along with
+                    our progress on our <a href="/#/blog">Blog</a>!
                   </p>
                 </b-col>
               </b-row>

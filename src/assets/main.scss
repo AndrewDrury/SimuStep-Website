@@ -67,6 +67,12 @@ h4,h5,h6, p {
   font-family: 'Prata', Georgia, 'Times New Roman', Times, serif;
 }
 
+@media (max-width: $screen-lg) {
+  p {
+    font-size: 16px !important;
+  }
+}
+
 .link {
   color: black;
   text-decoration: underline $primary;
@@ -81,45 +87,45 @@ h4,h5,h6, p {
 .section {
   padding-top: 80px;
   text-align: left;
-  @media (max-width: $screen-md) {
+  @media (max-width: $screen-lg) {
     text-align: center;
   }
-  @media (max-width: $screen-md) {
+  @media (max-width: $screen-lg) {
     padding-right: 26px;
     padding-left: 26px
   }
-  @media (min-width: $screen-md) {
+  @media (min-width: $screen-lg) {
     padding-left: 10%;
     padding-right: 10%;
   }
 }
 #about {
-  @media (max-width: $screen-sm) {
+  @media (max-width: $screen-lg) {
     padding-top: 0px;
   }
 }
 
 .desktop {
   display: inline;
-  @media (max-width: $screen-md) {
+  @media (max-width: $screen-lg) {
     display: none !important;
   }
 }
 .mobile {
   display: none;
-  @media (max-width: $screen-md) {
+  @media (max-width: $screen-lg) {
     display: inline;
   }
 }
 .desktop1 {
   display: inline;
-  @media (max-width: $screen-sm) {
+  @media (max-width: $screen-md) {
     display: none;
   }
 }
 .mobile1 {
   display: none;
-  @media (max-width: $screen-sm) {
+  @media (max-width: $screen-md) {
     display: inline;
   }
 }

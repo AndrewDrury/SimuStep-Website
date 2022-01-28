@@ -12,26 +12,25 @@
       </b-row>
       <b-row class="pt-4 pb-5 mb-4">
         <b-col align="center">
-          <!-- <a href="/#/blog/2">
+          <a href="/#/blog/2">
             <b-row class="blogEntry">
               <b-col class="blogPic" lg="4">
-                <img
-                  class="model"
-                  src="@/assets/pics/3Dmodel.png"
-                />
+                <img class="model" src="@/assets/pics/spaghetti.png" />
               </b-col>
               <b-col class="blogDescription" lg="8">
-                <h6 class="headline">SBlog Post 2</h6>
+                <h6 class="headline">Electrical Design Pt 1: Spaghetti</h6>
                 <p class="description">
-                  Heew nwnf jkwejnf kwenfjk wejn kwn wekf nwek fnew...
+                  The electrical assembly for the prototype will be done in two
+                  sections: first, the interface devices, sensors, and
+                  controller...
                 </p>
                 <p class="date">
-                  <i class="fa fa-calendar"></i> January --, 2022
+                  <i class="fa fa-calendar"></i> January 20th, 2022
                 </p>
               </b-col>
             </b-row>
           </a>
-          <hr /> -->
+          <hr />
           <a href="/#/blog/1">
             <b-row class="blogEntry">
               <b-col class="blogPic" lg="4">
@@ -44,7 +43,7 @@
                   posts documenting the progress of SimuStep, our fourth...
                 </p>
                 <p class="date">
-                  <i class="fa fa-calendar"></i> January 24th, 2022
+                  <i class="fa fa-calendar"></i> January 15th, 2022
                 </p>
               </b-col>
             </b-row>

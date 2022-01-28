@@ -173,7 +173,7 @@
 <style lang="scss">
 @import "../assets/variables.scss";
 
-@media (max-width: $screen-md) {
+@media (max-width: $screen-lg) {
   img {
     padding-inline: 60px;
     padding-bottom: 30px;
