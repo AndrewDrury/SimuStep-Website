@@ -13,11 +13,11 @@
       <img class="topPic" src="@/assets/pics/spaghetti.png" />
       <h1 class="title">Electrical Design Pt 1: Spaghetti</h1>
       <b-row class="details">
-        <b-col style="text-align: left">
-          <p class="time"><i class="fa fa-calendar"></i> January 20th, 2022</p>
+        <b-col style="text-align: left;min-width:200px;">
+          <p class="date"><i class="fa fa-calendar"></i> January 20th, 2022</p>
         </b-col>
         <b-col style="text-align: right">
-          <p class="date"><i class="fa fa-clock-o"></i> 2 min</p>
+          <p class="time"><i class="fa fa-clock-o"></i> 2 min</p>
         </b-col>
       </b-row>
       <p>
@@ -30,10 +30,10 @@
         used for controls.
       </p>
       <b-row>
-        <b-col col="6">
+        <b-col col="6" style="text-align: right">
           <img class="perf1" src="@/assets/pics/perfFront.jpg" />
         </b-col>
-        <b-col col="6">
+        <b-col col="6" style="text-align: left">
           <img class="perf2" src="@/assets/pics/perfBack.jpg" />
         </b-col>
       </b-row>

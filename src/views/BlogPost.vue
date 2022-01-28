@@ -34,7 +34,7 @@
     margin-top: 30px;
     margin-bottom: 15px;
     @media (max-width: $screen-lg) {
-      font-size: 42px;
+      font-size: 30px;
     }
   }
   .details {
@@ -46,7 +46,7 @@
     padding-top: 15px !important;
     margin-bottom: 0px !important;
   }
-  .date {
+  .time {
     text-align: right !important;
   }
 }

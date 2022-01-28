@@ -80,6 +80,9 @@
     .description {
       margin-bottom: 0px;
       padding-bottom: 30px;
+      @media (max-width: $screen-lg) {
+        padding-bottom: 15px;
+      }
       text-decoration: none;
     }
     .date {
