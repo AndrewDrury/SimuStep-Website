@@ -12,6 +12,24 @@
       </b-row>
       <b-row class="pt-4 pb-5 mb-4">
         <b-col align="center">
+          <a href="/#/blog/3">
+            <b-row class="blogEntry">
+              <b-col class="blogPic" lg="4">
+                <img class="model" src="@/assets/pics/pcb.jpg" />
+              </b-col>
+              <b-col class="blogDescription" lg="8">
+                <h6 class="headline">Electrical Design Pt 2: Reverse Engineering</h6>
+                <p class="description">
+                  Over the course of the last few weeks, much progress has been
+                  made on the electrical design! By examining the PCB...
+                </p>
+                <p class="date">
+                  <i class="fa fa-calendar"></i> February 18, 2022
+                </p>
+              </b-col>
+            </b-row>
+          </a>
+          <hr />
           <a href="/#/blog/2">
             <b-row class="blogEntry">
               <b-col class="blogPic" lg="4">

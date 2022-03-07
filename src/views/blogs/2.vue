@@ -13,7 +13,7 @@
       <img class="topPic" src="@/assets/pics/spaghetti.png" />
       <h1 class="title">Electrical Design Pt 1: Spaghetti</h1>
       <b-row class="details">
-        <b-col style="text-align: left;min-width:200px;">
+        <b-col style="text-align: left; min-width: 200px">
           <p class="date"><i class="fa fa-calendar"></i> January 20th, 2022</p>
         </b-col>
         <b-col style="text-align: right">
@@ -60,7 +60,8 @@
 
 <style lang="scss">
 @import "../../assets/variables.scss";
-.perf1, .perf2 {
+.perf1,
+.perf2 {
   max-width: 100%;
   max-height: 300px;
 }

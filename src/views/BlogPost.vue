@@ -3,6 +3,7 @@
     <b-container fluid class="wrap-mobile">
       <Blog1 v-if="this.$route.params.id == 1" />
       <Blog2 v-if="this.$route.params.id == 2" />
+      <Blog3 v-if="this.$route.params.id == 3" />
     </b-container>
   </div>
 </template>
@@ -56,12 +57,14 @@
 import Vue from "vue";
 import Blog1 from "./blogs/1.vue";
 import Blog2 from "./blogs/2.vue";
+import Blog3 from "./blogs/3.vue";
 
 export default Vue.extend({
   name: "blogPost",
   components: {
     Blog1,
     Blog2,
+    Blog3,
   },
 });
 </script>

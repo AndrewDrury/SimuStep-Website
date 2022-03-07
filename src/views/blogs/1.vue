@@ -13,7 +13,7 @@
       <img class="topPic" src="@/assets/pics/logoAnimation.gif" />
       <h1 class="title">WELCOME!</h1>
       <b-row class="details">
-        <b-col style="text-align: left;min-width:200px;">
+        <b-col style="text-align: left; min-width: 200px">
           <p class="date"><i class="fa fa-calendar"></i> January 15th, 2022</p>
         </b-col>
         <b-col style="text-align: right">
