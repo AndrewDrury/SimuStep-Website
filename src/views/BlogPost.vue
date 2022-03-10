@@ -4,6 +4,9 @@
       <Blog1 v-if="this.$route.params.id == 1" />
       <Blog2 v-if="this.$route.params.id == 2" />
       <Blog3 v-if="this.$route.params.id == 3" />
+      <Blog4 v-if="this.$route.params.id == 4" />
+      <Blog5 v-if="this.$route.params.id == 5" />
+      <Blog6 v-if="this.$route.params.id == 6" />
     </b-container>
   </div>
 </template>
@@ -58,6 +61,9 @@ import Vue from "vue";
 import Blog1 from "./blogs/1.vue";
 import Blog2 from "./blogs/2.vue";
 import Blog3 from "./blogs/3.vue";
+import Blog4 from "./blogs/4.vue";
+import Blog5 from "./blogs/5.vue";
+import Blog6 from "./blogs/6.vue";
 
 export default Vue.extend({
   name: "blogPost",
@@ -65,6 +71,9 @@ export default Vue.extend({
     Blog1,
     Blog2,
     Blog3,
+    Blog4,
+    Blog5,
+    Blog6,
   },
 });
 </script>

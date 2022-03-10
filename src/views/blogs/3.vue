@@ -10,35 +10,52 @@
           Back
         </h6></a
       >
-      <img class="topPic" src="@/assets/pics/pcb.jpg" />
-      <h1 class="title">Electrical Design Pt 2: Reverse Engineering</h1>
+      <img class="topPic" src="@/assets/pics/SoftwareFlowchart.jpeg" />
+      <h1 class="title">Software Design Pt 1: Off to the Races</h1>
       <b-row class="details">
         <b-col style="text-align: left; min-width: 200px">
-          <p class="date"><i class="fa fa-calendar"></i> February 18, 2022</p>
+          <p class="date"><i class="fa fa-calendar"></i> January 29th, 2022</p>
         </b-col>
         <b-col style="text-align: right">
-          <p class="time"><i class="fa fa-clock-o"></i> 1 min</p>
+          <p class="time"><i class="fa fa-clock-o"></i> 3 min</p>
         </b-col>
       </b-row>
       <p>
-        Over the course of the last few weeks, much progress has been made on
-        the electrical design! By examining the PCB of an at-home TENS unit, we
-        were able to determine the appropriate schematic and components needed
-        to generate electrical stimulation. To confirm the performance of the
-        circuit, we simulated its' behaviour in LTSpice.
+        Software was developped to control the device according to the flowchart
+        above. When the device is turned on, the power button is illuminated to
+        indicate the power state. Once powered on, the device enters a standby
+        state, waiting for an input. SimuStep has three active modes:
+        calibration, walking, and rehabilitation. The blue, green, and yellow
+        LED each represent a mode. The mode button can be clicked to cycle
+        through each of the modes. When all three LEDs are off while the power
+        button is on, the device is in a standby state and will not be
+        performing any action. Code was written to allow mode switching -
+        updating the LEDs to reflect the current mode.
       </p>
-      <img class="blogPic" src="@/assets/pics/ltspice.png" />
+      <img class="blogPic" src="@/assets/pics/blueLed.png" />
       <p>
-        The next step was to determine how to integrate this circuit with our
-        device. Using an oscilloscope, the pins of the device microcontroller
-        were probed to analyze what kind of signal is being supplied.
+        In calibration mode, the blue LED is lit and device is reading the
+        potentiometer. The potentiometer is used to set the intensity of the
+        electrodes. The potentiometer value is read and mapped linearly to a
+        voltage ranging from 0 to 3.3V. Once the electrodes are integrated on
+        the prototype, the device will be sending the corresponding voltage to
+        the electrodes via the DAC in pulses at a set frequency.
       </p>
-      <img class="blogPic" src="@/assets/pics/biphasicsignals.png" />
+      <img class="blogPic" src="@/assets/pics/greenLed.png" />
       <p>
-        The stimulation circuit will be supplied by three signals: one to set the variable amplitude of the stimulation, and two that control the frequency and pulse width of each electrode. These two signals will be 90 degrees out of phase to provide biphasic stimulation and avoid buildup of charge. The electrodes that output from the circuit will be panel mounted in our device to stimulate the leg.
+        The green LED indicates that the device is in walking mode. When in
+        walking mode, the device is reading the IMU as input to determine the
+        leg's swing-phase. Once integrated, the electrodes will then be
+        activated while the leg is in the pre-swing phase until it has reached
+        its terminal swing phase. This mode will require further work covered in
+        a future blog.
       </p>
+      <img class="blogPic" src="@/assets/pics/yellowLed.png" />
       <p>
-        We have connected the stimulation circuit to the rest of the system and will now begin testing of the system and software.
+        Rehabilitation mode is represented by the yellow LED. Once the
+        electrodes are attached, the device will intermittently send one second
+        pulses to the leg. The intensity dial can be adjusted to change the
+        stimulation level.
       </p>
     </b-col>
   </b-row>

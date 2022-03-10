@@ -22,11 +22,19 @@
         <b-col lg="7" class="modelPic">
           <img
             class="model"
-            src="@/assets/pics/3Dmodel.png"
-            style="max-width: 80vw"
+            src="@/assets/pics/3Dmodel.jpg"
+            style="max-width: 80%"
           />
         </b-col>
       </b-row>
+      <!-- <b-row>
+        <b-col>
+          Hello
+        </b-col>
+        <b-col>
+          Hello
+        </b-col>
+      </b-row> -->
     </b-container>
   </div>
 </template>

@@ -39,7 +39,7 @@
                   <img
                     class="model"
                     style="width: 100%"
-                    src="@/assets/pics/3Dmodel.png"
+                    src="@/assets/pics/3Dmodel.jpg"
                   />
                 </b-col>
                 <b-col>

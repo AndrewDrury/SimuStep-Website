@@ -12,19 +12,75 @@
       </b-row>
       <b-row class="pt-4 pb-5 mb-4">
         <b-col align="center">
-          <a href="/#/blog/3">
+          <a href="/#/blog/6">
+            <b-row class="blogEntry">
+              <b-col class="blogPic" lg="4">
+                <img class="model" src="@/assets/pics/3Dmodel.jpg" />
+              </b-col>
+              <b-col class="blogDescription" lg="8">
+                <h6 class="headline">Mechanical: A fresh Look</h6>
+                <p class="description">
+                  The integration of the new stimulation circuit requires a
+                  change in the size of the housing. The width of the...
+                </p>
+                <p class="date">
+                  <i class="fa fa-calendar"></i> March 2nd, 2022
+                </p>
+              </b-col>
+            </b-row>
+          </a>
+          <hr />
+          <a href="/#/blog/5">
             <b-row class="blogEntry">
               <b-col class="blogPic" lg="4">
                 <img class="model" src="@/assets/pics/pcb.jpg" />
               </b-col>
               <b-col class="blogDescription" lg="8">
-                <h6 class="headline">Electrical Design Pt 2: Reverse Engineering</h6>
+                <h6 class="headline">
+                  Electrical Design Pt 2: Reverse Engineering
+                </h6>
                 <p class="description">
                   Over the course of the last few weeks, much progress has been
                   made on the electrical design! By examining the PCB...
                 </p>
                 <p class="date">
-                  <i class="fa fa-calendar"></i> February 18, 2022
+                  <i class="fa fa-calendar"></i> February 18th, 2022
+                </p>
+              </b-col>
+            </b-row>
+          </a>
+          <hr />
+          <a href="/#/blog/4">
+            <b-row class="blogEntry">
+              <b-col class="blogPic" lg="4">
+                <img class="model" src="@/assets/pics/simuStepOnTable.jpg" />
+              </b-col>
+              <b-col class="blogDescription" lg="8">
+                <h6 class="headline">Software Design Pt 2: A New Angle</h6>
+                <p class="description">
+                  When the device is in walking mode, the electrodes need to be
+                  activated while the leg is moving from its pre-swing phase...
+                </p>
+                <p class="date">
+                  <i class="fa fa-calendar"></i> February 10th, 2022
+                </p>
+              </b-col>
+            </b-row>
+          </a>
+          <hr />
+          <a href="/#/blog/3">
+            <b-row class="blogEntry">
+              <b-col class="blogPic" lg="4">
+                <img class="model" src="@/assets/pics/SoftwareFlowchart.jpeg" />
+              </b-col>
+              <b-col class="blogDescription" lg="8">
+                <h6 class="headline">Software Design Pt 1: Off to the Races</h6>
+                <p class="description">
+                  When the device is turned on, the power button is illuminated
+                  to indicate the power state. Once powered on...
+                </p>
+                <p class="date">
+                  <i class="fa fa-calendar"></i> January 29th, 2022
                 </p>
               </b-col>
             </b-row>
