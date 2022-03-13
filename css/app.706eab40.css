@@ -60,6 +60,13 @@
  * Copyright 2011-2021 The Bootstrap Authors
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+
+/*!
+ * Bootstrap v4.6.1 (https://getbootstrap.com/)
+ * Copyright 2011-2021 The Bootstrap Authors
+ * Copyright 2011-2021 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */.perf1,.perf2{max-width:100%;max-height:300px}.perf1{text-align:right}
 
 /*!
@@ -67,7 +74,7 @@
  * Copyright 2011-2021 The Bootstrap Authors
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */#blogPost{margin-top:45px;padding-top:20px;padding-inline:16vw}@media (max-width:1200px){#blogPost{margin-top:20px!important;padding-inline:30px}}#blogPost .fa-chevron-left{-webkit-text-stroke:1px #fff}#blogPost .topPic{max-width:48vw;max-height:60vh}#blogPost .blogPic{margin-block:30px;max-width:88vw;max-height:40vh}#blogPost .title{font-size:75px;margin-top:30px;margin-bottom:15px}@media (max-width:1200px){#blogPost .title{font-size:30px}}#blogPost .details{margin-bottom:15px}#blogPost p{text-align:justify;padding-bottom:15px!important;padding-top:15px!important;margin-bottom:0!important}#blogPost .time{text-align:right!important}
+ */#blogPost{margin-top:45px;padding-top:20px;padding-inline:16vw}@media (max-width:1200px){#blogPost{margin-top:20px!important;padding-inline:30px}}#blogPost .fa-chevron-left{-webkit-text-stroke:1px #fff}#blogPost .topPic{max-width:48vw;max-height:60vh}#blogPost .blogPic{margin-block:30px;max-width:88vw;max-height:40vh}#blogPost .title{font-size:75px;margin-top:30px;margin-bottom:15px}@media (max-width:1200px){#blogPost .title{font-size:30px}}#blogPost .details{margin-bottom:15px}#blogPost p{text-align:left;padding-bottom:15px!important;padding-top:15px!important;margin-bottom:0!important}#blogPost .time{text-align:right!important}
 
 /*!
  * Bootstrap v4.6.1 (https://getbootstrap.com/)
