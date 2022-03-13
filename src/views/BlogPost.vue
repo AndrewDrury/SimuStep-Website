@@ -7,6 +7,7 @@
       <Blog4 v-if="this.$route.params.id == 4" />
       <Blog5 v-if="this.$route.params.id == 5" />
       <Blog6 v-if="this.$route.params.id == 6" />
+      <Blog7 v-if="this.$route.params.id == 7" />
     </b-container>
   </div>
 </template>
@@ -45,7 +46,7 @@
     margin-bottom: 15px;
   }
   p {
-    text-align: justify;
+    text-align: left;
     padding-bottom: 15px !important;
     padding-top: 15px !important;
     margin-bottom: 0px !important;
@@ -64,6 +65,7 @@ import Blog3 from "./blogs/3.vue";
 import Blog4 from "./blogs/4.vue";
 import Blog5 from "./blogs/5.vue";
 import Blog6 from "./blogs/6.vue";
+import Blog7 from "./blogs/7.vue";
 
 export default Vue.extend({
   name: "blogPost",
@@ -74,6 +76,7 @@ export default Vue.extend({
     Blog4,
     Blog5,
     Blog6,
+    Blog7,
   },
 });
 </script>

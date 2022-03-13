@@ -11,7 +11,7 @@
         </h6></a
       >
       <img class="topPic" src="@/assets/pics/3Dmodel.jpg" />
-      <h1 class="title">Mechanical: A Fresh Look</h1>
+      <h1 class="title">Mechanical Design: A Fresh Look</h1>
       <b-row class="details">
         <b-col style="text-align: left; min-width: 200px">
           <p class="date"><i class="fa fa-calendar"></i> March 2nd, 2022</p>

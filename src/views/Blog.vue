@@ -12,16 +12,36 @@
       </b-row>
       <b-row class="pt-4 pb-5 mb-4">
         <b-col align="center">
+          <a href="/#/blog/7">
+            <b-row class="blogEntry">
+              <b-col class="blogPic" lg="4">
+                <img class="model" src="@/assets/pics/housingOpen.jpg" />
+              </b-col>
+              <b-col class="blogDescription" lg="8">
+                <h6 class="headline">SimuStep Assemble!</h6>
+                <p class="description">
+                  After we had the housing 3D printed and successfully
+                  implemented the stimulation components, we gathered together
+                  to assemble...
+                </p>
+                <p class="date">
+                  <i class="fa fa-calendar"></i> March 9th, 2022
+                </p>
+              </b-col>
+            </b-row>
+          </a>
+          <hr />
           <a href="/#/blog/6">
             <b-row class="blogEntry">
               <b-col class="blogPic" lg="4">
                 <img class="model" src="@/assets/pics/3Dmodel.jpg" />
               </b-col>
               <b-col class="blogDescription" lg="8">
-                <h6 class="headline">Mechanical: A fresh Look</h6>
+                <h6 class="headline">Mechanical Design: A fresh Look</h6>
                 <p class="description">
                   The integration of the new stimulation circuit requires a
-                  change in the size of the housing. The width of the...
+                  change in the size of the housing. The outer dimensions of the
+                  housing...
                 </p>
                 <p class="date">
                   <i class="fa fa-calendar"></i> March 2nd, 2022
