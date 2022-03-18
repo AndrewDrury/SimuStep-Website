@@ -20,12 +20,6 @@
                 s5stephe@uwaterloo.ca
               </p>
             </a>
-            <a href="https://github.com/AndrewDrury/SimuStep" target="_blank">
-              <p class="mb-0 pb-0">
-                <i class="fa fa-github" style="font-size: 24px"></i>
-                GitHub Repository
-              </p>
-            </a>
             <p class="mb-0 pb-0">
               <i
                 class="fa fa-map-marker"

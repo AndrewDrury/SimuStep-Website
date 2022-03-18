@@ -27,6 +27,23 @@
           />
         </b-col>
       </b-row>
+      <b-row>
+        <b-col style="padding-top: 90px">
+          <img src="@/assets/pics/poster.png" style="max-width: 100%" />
+        </b-col>
+      </b-row>
+      <b-row>
+        <b-col class="video-wrapper">
+          <iframe
+            width="560"
+            height="349"
+            src="https://www.youtube.com/embed/m38hnh_jvvw?autoplay=1&loop=1"
+            frameborder="0"
+            allowfullscreen
+          >
+          </iframe>
+        </b-col>
+      </b-row>
       <!-- <b-row>
         <b-col>
           Hello
@@ -85,6 +102,14 @@ a:hover {
       padding-left: 20px;
       padding-right: 20px;
       font-size: 25px !important;
+    }
+  }
+  .video-wrapper {
+    padding-top: 210px;
+    padding-bottom: 120px;
+    iframe {
+      width: 100%;
+      height: 82vh;
     }
   }
 }
